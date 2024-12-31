@@ -12,9 +12,8 @@ This project demonstrates a basic Spring Boot application with username and pass
 ## Project Setup
 
 ### Prerequisites
-- JDK 8 or higher
-- Maven or Gradle for building the project
-- Spring Boot 2.x (or compatible)
+- Java 17
+- Maven
 
 ### Dependencies
 The project uses the following dependencies:
@@ -44,12 +43,12 @@ The project uses the following dependencies:
 
 ### Default User
 
-Username: user
-Password: testing (encoded using BCryptPasswordEncoder)
+- Username: user
+- Password: testing (encoded using BCryptPasswordEncoder)
 
 ### Accessing the Application
 
 When the application is running, you can test authentication using HTTP requests:
 
-Login URL: /login
-Credentials: Use the username user and the password testing.
+- Login URL: /login
+- Credentials: Use the username user and the password testing.
